@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Muli;
+    font-weight: 400;
+}
+ul{
+    float: right;
+    list-style-type: none;
+
+}
+
+.navbar{
+    height: auto;
+    padding: 10px;
+
+}
+
+ul li{
+    display:inline;
+    
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border: 0px 0px;
+    font-size: 1.6rem;
+    color: #14141c;
+    
+    
+}
+
+.bluebg{
+    background-color: rgb(22, 22, 186);
+}
+
+.pic{
+    display: -webkit-box;
+    margin-left: 1000px;
+}
+
+.bluebg-text{
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-bottom: 1000px;
+    
+    
+}
