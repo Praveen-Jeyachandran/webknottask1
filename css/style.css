@@ -37,6 +37,8 @@ ul li a{
 
 .bluebg{
     background-color: rgb(22, 22, 186);
+    height: 770px;
+    width: 1900px;
 }
 
 .pic{
@@ -46,9 +48,7 @@ ul li a{
 
 .bluebg-text{
     color:white;
+    width: 600px;
     text-decoration: none;
     font-family: sans-serif;
-    margin-bottom: 1000px;
-    
-    
 }
