@@ -52,3 +52,12 @@ ul li a{
     text-decoration: none;
     font-family: sans-serif;
 }
+
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
