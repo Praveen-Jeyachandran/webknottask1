@@ -2,13 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Muli;
+  font-family: sans-serif;
   font-weight: 400;
 }
-ul {
-  float: right;
-  list-style-type: none;
-}
+
 
 .navbar {
   display: flex;
@@ -17,11 +14,22 @@ ul {
   line-height: 72.13px;
 }
 
-ul li {
+.logo img{
+  width: 150px;
+  height: 45.75px;
+  margin-top: 15px;
+}
+
+.navigation ul {
+  float: right;
+  list-style-type: none;
+}
+
+.navigation ul li {
   display: inline;
 }
 
-ul li a {
+.navigation ul li a {
   text-decoration: none;
   padding: 15px 15px;
   font-family: sans-serif;
@@ -31,22 +39,54 @@ ul li a {
   color: #14141c;
 }
 
+.home{
+  display: flex;
+  flex-direction:column ;
+}
+
 .bluebg {
+  display: flex;
   background-color: rgb(22, 22, 186);
-  height: 770px;
-  width: 1900px;
+  
 }
 
-.pic {
-  display: -webkit-box;
-  margin-left: 1000px;
+.row1{
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.bluebg-text {
-  color: white;
-  width: 600px;
+.col1{
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.bluebg-text{
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.bluebg-text-main {
+  
+  
   text-decoration: none;
   font-family: sans-serif;
+}
+
+.bluebg-heading{
+  text-transform: capitalize;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 4.4px;
+  margin-top:0px
 }
 
 .navbar input[type="text"] {
@@ -60,4 +100,55 @@ ul li a {
   padding: 0 14px;
   height: 40px;
   line-height: 40px;
+}
+
+.bluebg-subtext{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bluebg-subtext ul{
+  list-style-type: none;
+  color: #ffc601;
+  font-size: 26px;
+  display: block;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.bluebg-searchbar{
+  position: relative;
+  margin-bottom: 40px;
+  width: 650px;
+  
+}
+
+.bluebg-searchbar input{
+  width: 100%;
+
+  border: 1px solid #e1e1e1;
+  border-radius: 50px;
+  color: #6f7fd7;
+  font-weight: 700;
+  font-size: 1.6rem;
+  outline: 0!important;
+  padding: 14px 80px 14px 14px;
+  background: #253dc1;
+}
+
+.searchbutton{
+  display: flex;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+  border-left: 1px solid #e1e1e1;
+  background: 0;
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  height: 51px;
+  padding: 0 20px;
+  bottom: 0;
 }
